@@ -1,0 +1,26 @@
+Build the best flight game for make.fun's "Make the best flight game" bounty
+(best-flight-game-20261126-0057). Total prize $500 in USDC, top 50 places paid:
+1st $100, 2nd $55, 3rd $30, 4th $29, 5th $20, then down to 50th $3. Entries close
+2026-11-28T00:57:00Z, results 2026-12-14T00:57:00Z. Aim inside the paid places,
+ideally the top 10 — top-10 games get played on makefun.gg.
+
+Build "Kutilang Sky Courier": an original 2D canvas bush-plane game, static files
+under game/ (index.html playable in desktop Chrome, keyboard + mouse, zero network
+requests). Side chase view over a golden-hour island archipelago: sea, beaches,
+a volcano, rice terraces, villages and airstrips. The plane stays in frame with a
+lit instrument panel (altimeter, airspeed, artificial horizon, fuel, throttle) and
+a HUD showing altitude, speed and heading. Three missions with different goals:
+Ring Run (fly 8 golden rings), Island Hop (land on 3 airstrips), Storm Courier
+(timed delivery with wind gusts). Fuel burns with throttle, hard landings and
+terrain hits cause damage, stalls punish sloppy throttle discipline. Synthesized
+WebAudio sounds only — no copied art, music or names from any commercial game.
+
+Hand it in with a Node 22 main.ts at the repo root that copies game/ and
+screenshots/ to /output and writes dossier.json with vendor/makefun-game.ts
+(kit's copy, unchanged). Take 3-4 real screenshots of the game running in Chrome
+into screenshots/ (first by name is the cover). The game must be genuinely fun:
+throttle and turn discipline matter, fuel and damage turn each sortie into
+decisions, and landings and crashes read clearly. Public GitHub repo
+novia2698/best-flight-game-20261126-0057, MIT license, README with the three live
+make.fun badges, .makefun/owner.json naming wallet
+FvKG7hKUXEB3x9NAZNiDAUAqhttx2234Yr1oQfnEz17D.
